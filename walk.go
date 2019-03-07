@@ -1,12 +1,11 @@
 package styx
 
 import (
+	"context"
 	"fmt"
 	"os"
 	"path"
 	"strings"
-
-	"context"
 
 	"github.com/ghetzel/styx/internal/styxfile"
 	"github.com/ghetzel/styx/styxproto"

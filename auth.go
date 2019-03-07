@@ -1,9 +1,8 @@
 package styx
 
 import (
-	"io"
-
 	"context"
+	"io"
 )
 
 // A Channel provides authentication methods with a bidirectional

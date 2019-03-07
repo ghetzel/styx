@@ -1,13 +1,12 @@
 package styx
 
 import (
+	"context"
 	"io"
 	"os"
 	"path"
 	"strings"
 	"sync"
-
-	"context"
 
 	"github.com/ghetzel/styx/internal/styxfile"
 	"github.com/ghetzel/styx/internal/threadsafe"

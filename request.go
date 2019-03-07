@@ -1,10 +1,9 @@
 package styx
 
 import (
+	"context"
 	"os"
 	"path"
-
-	"context"
 
 	"github.com/ghetzel/styx/internal/styxfile"
 	"github.com/ghetzel/styx/internal/sys"

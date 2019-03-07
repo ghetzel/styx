@@ -2,6 +2,7 @@ package styx
 
 import (
 	"bytes"
+	"context"
 	"errors"
 	"fmt"
 	"io"
@@ -12,8 +13,6 @@ import (
 	"github.com/ghetzel/styx/internal/threadsafe"
 	"github.com/ghetzel/styx/internal/tracing"
 	"github.com/ghetzel/styx/styxproto"
-
-	"context"
 )
 
 var (
