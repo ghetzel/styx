@@ -1,5 +1,5 @@
 language: go
-go_import_path: aqwari.net/net/styx
+go_import_path: github.com/ghetzel/styx
 notifications:
   email:
     recipients: droyo@aqwari.net

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"aqwari.net/net/styx"
+	"github.com/ghetzel/styx"
 )
 
 func ExampleStack() {

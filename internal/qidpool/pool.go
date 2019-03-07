@@ -5,8 +5,8 @@ package qidpool
 import (
 	"sync/atomic"
 
-	"aqwari.net/net/styx/internal/threadsafe"
-	"aqwari.net/net/styx/styxproto"
+	"github.com/ghetzel/styx/internal/threadsafe"
+	"github.com/ghetzel/styx/styxproto"
 )
 
 // A Pool maintains a pool of unique 13-bit identifiers

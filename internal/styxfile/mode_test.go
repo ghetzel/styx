@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"aqwari.net/net/styx/styxproto"
+	"github.com/ghetzel/styx/styxproto"
 )
 
 func TestFileMode(t *testing.T) {

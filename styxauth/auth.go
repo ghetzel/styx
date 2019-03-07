@@ -3,7 +3,7 @@ package styxauth
 import (
 	"errors"
 
-	"aqwari.net/net/styx"
+	"github.com/ghetzel/styx"
 )
 
 var (

@@ -3,7 +3,7 @@ package styx
 import (
 	"os"
 
-	"aqwari.net/net/styx/internal/styxfile"
+	"github.com/ghetzel/styx/internal/styxfile"
 )
 
 type file struct {

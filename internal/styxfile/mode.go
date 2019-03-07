@@ -3,7 +3,7 @@ package styxfile
 import (
 	"os"
 
-	"aqwari.net/net/styx/styxproto"
+	"github.com/ghetzel/styx/styxproto"
 )
 
 // FileMode converts a 9P mode mask to an os.FileMode.

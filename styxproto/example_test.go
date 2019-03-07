@@ -7,7 +7,7 @@ import (
 	"log"
 	"net"
 
-	"aqwari.net/net/styx/styxproto"
+	"github.com/ghetzel/styx/styxproto"
 )
 
 func ExampleNewStat() {

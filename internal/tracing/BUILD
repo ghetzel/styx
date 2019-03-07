@@ -3,9 +3,9 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["trace.go"],
-    importpath = "aqwari.net/net/styx/internal/tracing",
-    visibility = ["//aqwari.net/net/styx:__subpackages__"],
-    deps = ["//aqwari.net/net/styx/styxproto:go_default_library"],
+    importpath = "github.com/ghetzel/styx/internal/tracing",
+    visibility = ["//github.com/ghetzel/styx:__subpackages__"],
+    deps = ["//github.com/ghetzel/styx/styxproto:go_default_library"],
 )
 
 go_test(

@@ -8,9 +8,9 @@ go_library(
         "socket.go",
         "tls.go",
     ],
-    importpath = "aqwari.net/net/styx/styxauth",
+    importpath = "github.com/ghetzel/styx/styxauth",
     visibility = ["//visibility:public"],
     deps = [
-        "//aqwari.net/net/styx:go_default_library",
+        "//github.com/ghetzel/styx:go_default_library",
     ],
 )

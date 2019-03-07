@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"aqwari.net/net/styx/internal/netutil"
-	"aqwari.net/net/styx/styxproto"
+	"github.com/ghetzel/styx/internal/netutil"
+	"github.com/ghetzel/styx/styxproto"
 )
 
 const (

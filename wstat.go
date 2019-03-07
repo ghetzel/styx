@@ -9,8 +9,8 @@ import (
 
 	"context"
 
-	"aqwari.net/net/styx/internal/styxfile"
-	"aqwari.net/net/styx/styxproto"
+	"github.com/ghetzel/styx/internal/styxfile"
+	"github.com/ghetzel/styx/styxproto"
 )
 
 // In the plan 9 manual, stat(5) has this to say about modifying

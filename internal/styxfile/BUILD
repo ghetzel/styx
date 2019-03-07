@@ -9,12 +9,12 @@ go_library(
         "mode.go",
         "seeker.go",
     ],
-    importpath = "aqwari.net/net/styx/internal/styxfile",
-    visibility = ["//aqwari.net/net/styx:__subpackages__"],
+    importpath = "github.com/ghetzel/styx/internal/styxfile",
+    visibility = ["//github.com/ghetzel/styx:__subpackages__"],
     deps = [
-        "//aqwari.net/net/styx/internal/qidpool:go_default_library",
-        "//aqwari.net/net/styx/internal/sys:go_default_library",
-        "//aqwari.net/net/styx/styxproto:go_default_library",
+        "//github.com/ghetzel/styx/internal/qidpool:go_default_library",
+        "//github.com/ghetzel/styx/internal/sys:go_default_library",
+        "//github.com/ghetzel/styx/styxproto:go_default_library",
     ],
 )
 
@@ -26,7 +26,7 @@ go_test(
     ],
     embed = [":go_default_library"],
     deps = [
-        "//aqwari.net/net/styx/internal/qidpool:go_default_library",
-        "//aqwari.net/net/styx/styxproto:go_default_library",
+        "//github.com/ghetzel/styx/internal/qidpool:go_default_library",
+        "//github.com/ghetzel/styx/styxproto:go_default_library",
     ],
 )

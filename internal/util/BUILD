@@ -9,8 +9,8 @@ go_library(
         "refcount.go",
         "sectionwriter.go",
     ],
-    importpath = "aqwari.net/net/styx/internal/util",
-    visibility = ["//aqwari.net/net/styx:__subpackages__"],
+    importpath = "github.com/ghetzel/styx/internal/util",
+    visibility = ["//github.com/ghetzel/styx:__subpackages__"],
 )
 
 go_test(

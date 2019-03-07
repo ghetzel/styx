@@ -7,11 +7,11 @@ import (
 	"io"
 	"net"
 
-	"aqwari.net/net/styx/internal/qidpool"
-	"aqwari.net/net/styx/internal/styxfile"
-	"aqwari.net/net/styx/internal/threadsafe"
-	"aqwari.net/net/styx/internal/tracing"
-	"aqwari.net/net/styx/styxproto"
+	"github.com/ghetzel/styx/internal/qidpool"
+	"github.com/ghetzel/styx/internal/styxfile"
+	"github.com/ghetzel/styx/internal/threadsafe"
+	"github.com/ghetzel/styx/internal/tracing"
+	"github.com/ghetzel/styx/styxproto"
 
 	"context"
 )

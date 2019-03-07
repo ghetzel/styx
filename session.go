@@ -9,10 +9,10 @@ import (
 
 	"context"
 
-	"aqwari.net/net/styx/internal/styxfile"
-	"aqwari.net/net/styx/internal/threadsafe"
-	"aqwari.net/net/styx/internal/util"
-	"aqwari.net/net/styx/styxproto"
+	"github.com/ghetzel/styx/internal/styxfile"
+	"github.com/ghetzel/styx/internal/threadsafe"
+	"github.com/ghetzel/styx/internal/util"
+	"github.com/ghetzel/styx/styxproto"
 )
 
 // A Session is a sequence of related 9P messages from a single client. It

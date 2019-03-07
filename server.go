@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"aqwari.net/net/styx/internal/util"
 	"aqwari.net/retry"
+	"github.com/ghetzel/styx/internal/util"
 )
 
 // Types implementing the Logger interface can receive

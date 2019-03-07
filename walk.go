@@ -8,8 +8,8 @@ import (
 
 	"context"
 
-	"aqwari.net/net/styx/internal/styxfile"
-	"aqwari.net/net/styx/styxproto"
+	"github.com/ghetzel/styx/internal/styxfile"
+	"github.com/ghetzel/styx/styxproto"
 )
 
 // The walk RPC is one of the more complex requests in the 9P protocol

@@ -3,8 +3,8 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["pool.go"],
-    importpath = "aqwari.net/net/styx/internal/pool",
-    visibility = ["//aqwari.net/net/styx:__subpackages__"],
+    importpath = "github.com/ghetzel/styx/internal/pool",
+    visibility = ["//github.com/ghetzel/styx:__subpackages__"],
 )
 
 go_test(

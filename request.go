@@ -6,9 +6,9 @@ import (
 
 	"context"
 
-	"aqwari.net/net/styx/internal/styxfile"
-	"aqwari.net/net/styx/internal/sys"
-	"aqwari.net/net/styx/styxproto"
+	"github.com/ghetzel/styx/internal/styxfile"
+	"github.com/ghetzel/styx/internal/sys"
+	"github.com/ghetzel/styx/styxproto"
 )
 
 // A Request is a request by a client to perform an operation

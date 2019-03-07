@@ -11,9 +11,9 @@ go_library(
         "owner_plan9.go",
         "owner_unix.go",
     ],
-    importpath = "aqwari.net/net/styx/internal/sys",
-    visibility = ["//aqwari.net/net/styx:__subpackages__"],
+    importpath = "github.com/ghetzel/styx/internal/sys",
+    visibility = ["//github.com/ghetzel/styx:__subpackages__"],
     deps = [
-        "//aqwari.net/net/styx/styxproto:go_default_library",
+        "//github.com/ghetzel/styx/styxproto:go_default_library",
     ],
 )

@@ -1,5 +1,5 @@
 ![build status](https://travis-ci.org/droyo/styx.svg?branch=master)
-[![GoDoc](https://godoc.org/aqwari.net/net/styx?status.svg)](https://godoc.org/aqwari.net/net/styx)
+[![GoDoc](https://godoc.org/github.com/ghetzel/styx?status.svg)](https://godoc.org/github.com/ghetzel/styx)
 
 This repo provides Go packages for writing 9P2000 file servers. One
 such example is [jsonfs](https://github.com/droyo/jsonfs),

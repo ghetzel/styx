@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 filegroup(
     name = "testdata",
     srcs = glob(["testdata/*.9p"]),
-    visibility = ["//aqwari.net/net/styx:__subpackages__"],
+    visibility = ["//github.com/ghetzel/styx:__subpackages__"],
 )
 
 go_library(
@@ -22,7 +22,7 @@ go_library(
         "stat.go",
         "verify.go",
     ],
-    importpath = "aqwari.net/net/styx/styxproto",
+    importpath = "github.com/ghetzel/styx/styxproto",
     visibility = ["//visibility:public"],
 )
 

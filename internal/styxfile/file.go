@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"aqwari.net/net/styx/internal/sys"
-	"aqwari.net/net/styx/styxproto"
+	"github.com/ghetzel/styx/internal/sys"
+	"github.com/ghetzel/styx/styxproto"
 )
 
 // 9P read/write requests contain an offset. This makes them
