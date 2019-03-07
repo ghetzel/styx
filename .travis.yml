@@ -2,6 +2,6 @@ language: go
 go_import_path: github.com/ghetzel/styx
 notifications:
   email:
-    recipients: droyo@aqwari.net
+    recipients: garyhetzel@gmail.com
     on_success: change
     on_failure: always
