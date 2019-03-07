@@ -1,13 +1,12 @@
 package styx
 
 import (
+	"context"
 	"fmt"
 	"math"
 	"os"
 	"sync/atomic"
 	"time"
-
-	"context"
 
 	"github.com/ghetzel/styx/internal/styxfile"
 	"github.com/ghetzel/styx/styxproto"
